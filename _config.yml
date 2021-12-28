@@ -72,7 +72,22 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
-
+| # 网站字体，要换字体建议架梯子上<https://fonts.google.com/>挑选，再通过fonts.loli.net 加速引入
+              <style>
+                .sidebar,
+                html,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                  font-family: "Courier New", "Courier", "PingFang TC", "WenQuanYi Micro Hei", "Microsoft YaHei Light", "Microsoft JhengHei", monospace;
+                }
+                h1, h2, h3, h4, h5, h6 {
+                  margin-bottom: 1rem;
+                }
+              </style>
 # Front Matter Defaults
 defaults:
   # _posts
