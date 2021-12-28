@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: hmy-US
-title: 洪梦瑶的JEKYLL网站
+title: 洪梦瑶的Jekyll网站
 email: 2846007397@qq.com
 description: 用于网页制作和期末作业
 baseurl: hongmengyao # the optional subpath of your site, e.g. "/blog"
